@@ -1,0 +1,65 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap:15px;
+    grid-auto-rows: minmax(600px,auto);
+    text-align: center;
+
+}
+
+
+.no1{
+    border: black solid;
+    background-color: turquoise;
+}
+.no2{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap:20px;
+  }
+  .nested-box-2{
+    border: rgb(0, 0, 0) solid;
+    border-radius: 6px;
+    background-color: turquoise;
+  }
+  .no3{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap:20px;
+
+  }
+  .nested-box-3{
+    border: rgb(8, 8, 8) solid;
+    background-color: turquoise;
+    border-radius: 6px;
+  }
+  .no4{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap:20px;
+  }
+  .nested-box-4{
+    border: rgb(14, 13, 13) solid;
+    border-radius: 6px;
+    background-color: turquoise;
+  }
+  .no5{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap:20px;
+  }
+  .nested-box-5{
+    border: rgb(12, 11, 11) solid;
+    border-radius: 6px;
+    background-color: turquoise;
+  }
+  .no6{
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap:20px;
+  }
+  .nested-box-6{
+    border: rgb(2, 2, 2) solid;
+    background-color: turquoise;
+    border-radius: 6px;
+  }
