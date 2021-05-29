@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 4px;
+    font-family: cursive;
+    background-image:url("https://media.istockphoto.com/photos/marble-texture-background-picture-id1015475992?k=6&m=1015475992&s=612x612&w=0&h=8DTYr_ROyMl12pOoKYc0-AgPm0m8iNoiOEvElPL3zKs=")
+}
+header{
+    background-color: rgba(34, 148, 247, 0.884);
+    padding: 30px;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 50px;
+    font-size:15px;
+}
+
+
+nav {
+    background-color: darkred;
+    position: sticky;
+    top: 0px;
+    padding: 30px;
+}
+nav a{
+    padding: 30px;
+    color: floralwhite;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+h2{
+    background-color: rgba(247, 105, 247, 0.904);
+    text-decoration:none;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+    border: 3px solid black;
+
+
+}
+.fs, .citypalace, .pichhola, .celebration, .snowpark,.jagmandir, .ilu
+{background-color: rgba(108, 223, 252, 0.925);
+    padding: 45px;
+    margin: 40px;
+    border-radius: 25px;
+   font-style: italic;
+   border: 5px solid black;
+}
+.park{
+    width:350px;
+}
+.a, .c, .e, .park{
+    float: left;
+    border: 4px solid rgb(15, 11, 71);
+    height: 100%;
+    width: 22%;
+    margin-right: 25px;
+    border: 3px solid black;
+
+}
+.b,.d,.f{
+    float:right;
+    border: 4px solid rgb(15, 11, 71);
+    height:100%;
+    width:27%;
+    margin-right: 25px;
+
+}
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 15px;
+}
+a:hover{
+    background-color: rgba(241, 40, 151, 0.568);
+}
+.heading{
+    clip-path: circle(44.3% at 50% 50%);
+   position: absolute;
+   top: 20px;
+   left: 50px;
+     
+}
+.venice{
+    height: 25%;
+}
