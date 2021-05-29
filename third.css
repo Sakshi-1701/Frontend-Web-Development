@@ -75,3 +75,7 @@ footer{
     padding-left: 80px;
     text-align:center;
 }
+a:hover{
+background-color:black;
+color:white;
+}
