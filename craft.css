@@ -64,7 +64,7 @@ nav a{
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('img/nav.jfif') no-repeat center center/cover;
+    background: url('https://images.unsplash.com/photo-1590853566724-83bc9da30d15?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXJ0JTIwYW5kJTIwY3JhZnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
     height: 442px;
     top:0px;
     left:0px;
